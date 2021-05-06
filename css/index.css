@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---Layout logo e titolo superiore della pagina---- */
+header{
+    margin: 10px 0;
+    position: relative;
+    background-color: white;
+    width: 100vw;
+}
+.titolo{
+    display: inline-block;
+    position:absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size:32px;
+}
+/* ---Layout sfondo pagina e contenitore--- */
+main{
+    position: relative;
+    background-color: lightgray;
+    height: 100vh;
+}
+.contenitore{
+    height: 90%;
+    width: 93%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+/* ---Layout bottoni--- */
+.add{
+    font-weight:normal  ;
+    font-size: 15px;
+    border:1px solid grey;
+    border-radius:5px ;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.task{
+    background-color: rgb(64, 147, 224);
+    color: white;
+}
+.section{
+    background-color: white;
+    color: grey;
+}
+/* ---Layout della lista--- */
+ul{
+    list-style: none;
+}
+li{
+    padding:7px 0;
+    font-weight: bold;
+
+}
+li div {
+    display: inline-block;
+    font-size: 10px;
+}
+.check, .cross{
+    border-radius: 50%;
+    padding: 2px;
+    vertical-align:text-bottom
+}
+.check{
+    border: 1px solid green;
+    color: green;
+}
+.cross{
+    border: 1px solid red;
+    color: red;
+
+}
+.box{
+    font-weight: normal;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.editional{
+    background-color: rgb(64, 147, 224);
+}
+.goals{
+    background-color: rgb(110, 14, 189);
+}
+.recruting{
+    background-color: rgb(15, 136, 120);
+
+}
+.mobile{
+    background-color: rgb(219, 94, 21);
+}
+.website{
+    background-color: rgb(163, 21, 219);  
+}
+.sales{
+    background-color: rgb(64, 147, 224);
+}
