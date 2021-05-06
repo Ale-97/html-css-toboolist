@@ -7,14 +7,14 @@
 /* ---Layout logo e titolo superiore della pagina---- */
 header{
     margin: 10px 0;
-    position: relative;
     background-color: white;
 }
+.logo{
+    vertical-align: middle;
+}
 .titolo{
-    display: inline-block;
-    position:absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+    font-weight: bold;
+    vertical-align: middle;
     font-size:32px;
 }
 /* ---Layout sfondo pagina e contenitore--- */
